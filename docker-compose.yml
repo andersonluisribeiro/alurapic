@@ -13,9 +13,6 @@ services:
 
   web:
     build: .
-    volumes:
-      - ./client:/usr/src/app/client
-      - ./server/app:/usr/src/app/server/app
     links:
       - db
     ports:
