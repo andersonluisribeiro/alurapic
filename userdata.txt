@@ -1,0 +1,2 @@
+#!/bin/bash
+echo ECS_CLUSTER=alurapic-cli >> /etc/ecs/ecs.config
